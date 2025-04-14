@@ -8,10 +8,9 @@ export const StyledMovieCreateBox = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down('sm')]: { padding: '80px 24px 24px' },
 }));
 
-
 export const StyledImageDropZoneBox = styled(Box)(({ theme }) => ({
   border: `2px dashed ${theme.palette.custom.gray}`,
-  padding: "20px",
+  padding: '20px',
   textAlign: 'center',
   cursor: 'pointer',
   borderRadius: '4px',

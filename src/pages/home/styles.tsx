@@ -17,7 +17,6 @@ export const StyledMovieBox = styled(Box)(({ theme }) => ({
   },
 }));
 
-
 export const StyledImageBox = styled(Box)(() => ({
   position: 'relative',
   width: 'calc(100% - 8px)',
@@ -26,5 +25,6 @@ export const StyledImageBox = styled(Box)(() => ({
 }));
 
 export const StyledNameTypography = styled(Typography)(({ theme }) => ({
-  marginTop: theme.spacing(2), color: theme.palette.common.white
+  marginTop: theme.spacing(2),
+  color: theme.palette.common.white,
 }));

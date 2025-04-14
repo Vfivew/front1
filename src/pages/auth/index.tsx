@@ -18,9 +18,7 @@ const AuthPage = () => {
 
   const currentTab = useMemo(
     () =>
-      router.query.tab === "register"
-        ? PagePath.REGISTER
-        : PagePath.LOGIN,
+      router.query.tab === 'register' ? PagePath.REGISTER : PagePath.LOGIN,
     [router.query.tab],
   );
 

@@ -15,7 +15,13 @@ import { useMovie } from '@src/hooks/useMovie';
 import { MovieSchema } from '@src/schemas/movieSchema';
 import { useAppDispatch } from '@src/store';
 import { updateMovie, createMovie } from '@src/store/actions/movie';
-import { StyledImageDropZoneBox, StyledMovieButton, StyledMovieCreateBox, StyledPreUploadedBox } from './styles';
+
+import {
+  StyledImageDropZoneBox,
+  StyledMovieButton,
+  StyledMovieCreateBox,
+  StyledPreUploadedBox,
+} from './styles';
 
 export interface ICreateMovieValues {
   [CreateMovieFields.NAME]: string;
@@ -115,8 +121,7 @@ const MoviePage = () => {
   });
 
   return (
-    <StyledMovieCreateBox
-    >
+    <StyledMovieCreateBox>
       <Typography variant="h2" color={theme.palette.common.white}>
         {id ? t('main.editMovie') : t('main.createMovie')}
       </Typography>
@@ -142,9 +147,7 @@ const MoviePage = () => {
               },
             }}
           >
-            <StyledImageDropZoneBox
-              {...getRootProps()}
-            >
+            <StyledImageDropZoneBox {...getRootProps()}>
               <input {...getInputProps()} />
               {uploadedFile || imageUrl ? (
                 <img

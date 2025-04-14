@@ -12,10 +12,10 @@ import { useRouter } from 'next/router';
 
 import { PATH_MAIN } from '@src/constants';
 
+import { StyledMovieBox } from './styles';
 import Header from '../../components/Header';
 import NoMovieContent from '../../components/NoMovieContent';
 import { useMovies } from '../../hooks/useMovies';
-import { StyledMovieBox } from './styles';
 
 const HomePage = () => {
   const theme = useTheme();
