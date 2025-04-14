@@ -2,15 +2,16 @@ import { Box, Button, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 export const StyledMovieCreateBox = styled(Box)(({ theme }) => ({
-  padding: '120px',
+  padding: theme.spacing(15),
   minHeight: '90vh',
   width: '100%',
-  [theme.breakpoints.down('sm')]: { padding: '80px 24px 24px' },
+  [theme.breakpoints.down('sm')]: {
+    padding: `${theme.spacing(10)} ${theme.spacing(3)} ${theme.spacing(3)}`,
+  },
 }));
-
 export const StyledImageDropZoneBox = styled(Box)(({ theme }) => ({
   border: `2px dashed ${theme.palette.custom.gray}`,
-  padding: '20px',
+  padding: theme.spacing(2.5),
   textAlign: 'center',
   cursor: 'pointer',
   borderRadius: '4px',

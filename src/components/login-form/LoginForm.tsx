@@ -49,8 +49,8 @@ const LoginForm = () => {
       dispatch(signIn({ ...data }))
         .then(unwrapResult)
         .then(() => {
-          toast.success(t('success.welcome'));
           router.push(PATH_MAIN.ROOT);
+          toast.success(t('success.welcome'));
         }),
     [dispatch, router, t],
   );

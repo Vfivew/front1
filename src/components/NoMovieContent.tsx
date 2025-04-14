@@ -21,7 +21,7 @@ const NoMovieContent: React.FC = () => {
         justifyContent: 'center',
         flexDirection: 'column',
         width: '100%',
-        gap: '40px',
+        gap: 5,
       }}
     >
       <Typography variant="h2" sx={{ color: theme.palette.common.white }}>
