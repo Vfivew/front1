@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "loadMore": "Load More",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "addNewMovie": "Add a new Movie",
+    "noMovie": "Your movie list is empty",
+    "save": "Save"
+  },
+  "errors": {
+    "requiredEmail": "Email can not be empty",
+    "requiredPass": "Password can not be empty",
+    "requiredFullName": "Password can not be empty",
+    "requiredField": "This field is required",
+    "invalidEmail": "Email format is incorrect",
+    "invalidPass": "Password must include uppercase and lowercase letters, a number, and a special character",
+    "invalidPhoneNumber": "Phone number is not valid",
+    "minLengthPass": "Password needs to be at least {{value}} characters",
+    "maxLengthChars": "Field must be not more than {{value}} characters",
+    "passwordsDontMatch": "Passwords don't match",
+    "fileSizeExceeds": "File size exceeds 5 MB",
+    "invalidImageType": "File should be in png or jpeg type",
+    "wentWrong": "Something went wrong",
+    "uploadFile": "Upload file before create movie!"
+  },
+  "inputs": {
+    "upload": "Drop file here",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Repeat password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "minCharacters": "Min {{value}} characters",
+    "maxCharacters": "Max {{value}} characters",
+    "name": "name",
+    "title": "title",
+    "rememberMe": "Remember me"
+  },
+  "auth": {
+    "login": "Log in",
+    "signUp": "Sign Up"
+  },
+  "registerPage": {
+    "success": {
+      "title": "Account created successfully"
+    },
+    "login": "Log in"
+  },
+  "success": {
+    "welcome": "Welcome!",
+    "signedUp": "Signed up successfully!",
+    "loggedIn": "Logged in successfully!",
+    "pleaseLogIn": "Please log in to your account to proceed to checkout!",
+    "createCard": "You created new Movie",
+    "updateCard": "Card update success"
+  },
+  "pages": {
+    "home": "Home"
+  },
+  "profile": {
+    "myMovies": "My movies",
+    "logout": "Logout"
+  },
+  "error404": {
+    "header": "404",
+    "subheader": "Page not found",
+    "description": "The page you are looking for doesn't exist or might have been removed.",
+    "pleaseGoBack": "Please, go back to the previous page.",
+    "goBack": "Go back",
+    "pleaseGoToHomePage": "Please, go to the home page.",
+    "homePage": "Home Page"
+  },
+  "main": {
+    "createMovie": "Create Movie",
+    "editMovie": "Edit Movie"
+  }
+}
