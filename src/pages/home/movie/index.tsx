@@ -10,18 +10,17 @@ import toast from 'react-hot-toast';
 
 import { FormProvider, RHFOutlinedInput, SVGIcon } from '@src/components';
 import LineLoader from '@src/components/LineLoader';
-import { CreateMovieFields, PATH_MAIN } from '@src/constants';
-import { useMovie } from '@src/hooks/useMovie';
-import { MovieSchema } from '@src/schemas/movieSchema';
-import { useAppDispatch } from '@src/store';
-import { updateMovie, createMovie } from '@src/store/actions/movie';
-
 import {
   StyledImageDropZoneBox,
   StyledMovieButton,
   StyledMovieCreateBox,
   StyledPreUploadedBox,
-} from './styles';
+} from '@src/components/styles/styles';
+import { CreateMovieFields, PATH_MAIN } from '@src/constants';
+import { useMovie } from '@src/hooks/useMovie';
+import { MovieSchema } from '@src/schemas/movieSchema';
+import { useAppDispatch } from '@src/store';
+import { updateMovie, createMovie } from '@src/store/actions/movie';
 
 export interface ICreateMovieValues {
   [CreateMovieFields.NAME]: string;

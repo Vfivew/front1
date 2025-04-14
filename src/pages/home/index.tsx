@@ -10,9 +10,9 @@ import {
 } from '@mui/material';
 import { useRouter } from 'next/router';
 
+import { StyledMovieBox } from '@src/components/styles/styles';
 import { PATH_MAIN } from '@src/constants';
 
-import { StyledMovieBox } from './styles';
 import Header from '../../components/Header';
 import NoMovieContent from '../../components/NoMovieContent';
 import { useMovies } from '../../hooks/useMovies';
