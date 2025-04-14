@@ -6,6 +6,7 @@ export interface TextDividerProps {
 
 export const TextDivider = (props: TextDividerProps) => {
   const { text } = props;
+
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
       <Box

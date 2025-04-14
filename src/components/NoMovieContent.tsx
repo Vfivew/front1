@@ -3,14 +3,15 @@ import { t } from 'i18next';
 import { useRouter } from 'next/router';
 
 import { PATH_MAIN } from '@src/constants';
+import { useCallback } from 'react';
 
-const NoMovieContent = () => {
+const NoMovieContent: React.FC = () => {
   const router = useRouter();
   const theme = useTheme();
 
-  const handleAdd = () => {
+  const handleAdd = useCallback(() => {
     router.push(PATH_MAIN.MOVIE);
-  };
+  }, [router]);
 
   return (
     <Box

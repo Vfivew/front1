@@ -33,7 +33,7 @@ const defaultValues: IRegisterFormValues = {
   [RegisterFields.REPEAT_PASSWORD]: '',
 };
 
-const RegisterForm = () => {
+const RegisterForm: React.FC = () => {
   const { t } = useTranslation();
   const dispatch = useAppDispatch();
   const router = useRouter();

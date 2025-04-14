@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { MainLayout } from '@src/components';
 import { PATH_MAIN } from '@src/constants/index';
 
-const Error404 = () => {
+const Error404: React.FC = () => {
   const { t } = useTranslation();
   const router = useRouter();
   const hasPreviousPage = window.history.length > 2;
